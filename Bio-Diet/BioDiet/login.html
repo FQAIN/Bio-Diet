@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login</title>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="application.js"></script>
+        <link rel="stylesheet" type="text/css"
+              href="/BioDiet/style.css">
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+<link rel="shortcut icon" href="favicon.ico" >
+</head>
+<body>
+<div id="login">
+  <div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><a href="account.html"><i class='fas'>&#xf2bd;</i></a> <a href="index.php">Home</a> <a href="login.html">Login</a> <a href="newProducts.html">Products</a> <a href="member">Sign Up</a> <a href="#">Feedbacks & Queries</a></div>
+  <div id="main"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></div>
+  <a href="index.php">
+  <h1 id="high" class="bounce">Bio-Diet</h1>
+  </a>
+  <main class="site-main">
+    <aside class="main-aside flex-center"> <img src="Images/hfood2.jpg" id="img1"/> </aside>
+    <aside class="main-aside flex-center" id="fyaz">
+      <h1 class="section-subtitle">ACCOUNT LOGIN</h1>
+      <form id="email_form" name="email_form" action="join.html" 	method="get">
+        <label for="email_address1"><i style='font-size:24px' class='fas'>&#xf007;</i> USERNAME:</label>
+        <p>
+          <input type="text" id="email_address1" name="email_address1">
+        </p>
+          <hr>
+        <label for="first_name"><i style="font-size:24px" class="fa">&#xf023;</i> PASSWORD</label>
+        <p>
+          <input type="password" id="first_name" name="first_name">
+        </p>
+          <hr>
+        <button type="submit" id="join_list">Login</button>
+      <button type="submit" id="join_list"><a href="member">Sign-up</a></button>
+        <p id="fp"><a href="changepassword.html"> Forgot Password ?</a></p>
+      </form>
+    </aside>
+  </main>
+</div>
+</body>
+</html>
